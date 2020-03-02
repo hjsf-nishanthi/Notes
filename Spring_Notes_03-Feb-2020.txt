@@ -1,0 +1,45 @@
+spring.io -> official site
+
+Features of Spring:
+-------------------
+->Spring is lightweight framework
+->helps build loosely coupled system
+->it is open source
+->spring has a very huge community , products gets released on this
+->helps to build lossely coupled system
+->integrate well with other systems like hibernate
+->follows best practices and have several design patterns into it 
+->has numerous modules like spring core,spring mvc,spring rest
+
+Spring core module
+-------------------
+core contains:
+--------------
+Beans
+core
+context
+Expression Language
+
+->spring core container is a JVM
+->core container manages the life cycle of beans
+->bean are nothing but POJO
+->core component takes care of IOC and Dependency Injection
+->spring context which is one obj which is accessed by the whole web application
+->core and beans together work with IOC and DI
+->context acts as a container and contains all the beans
+->Interface driven development
+->interface is given to view
+->spring supports interface driven development
+->model contains bean
+->repository - connecting with db
+->buisness process in service layer
+->right-click->source->generate getters and setters
+->service takes care of connecting to repository takes care of connecting to database
+->Spring container takes care of injecting dependency using constructors or getters and setters
+->spring core takes care of instantiating and injecting
+->IOC container provides instance
+->Bean is got from IOC container
+->ApplicationContext is IOC 
+->Container itself injects one bean into another bean means it is DI
+->beans are singleton
+->if we wanted many bean then we have to use prototype
