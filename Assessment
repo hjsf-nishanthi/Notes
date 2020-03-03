@@ -15,4 +15,6 @@ sql developer is the host environment where bind variable are present
 pl/sql variable are inside declare
 where 1=2 will give no data , since it is false
 we cannot give dbms inside trigger block , use raise application error.
-slide :39,
+life cycle,get , put, singleton,prototype,session listener,tags in jsp,jsp el,servlet context listener,servlet filter
+processing filter
+servlet get initialised nt created
