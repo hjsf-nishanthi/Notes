@@ -7,3 +7,12 @@ T/F - (5-10)
 pl/sql : 25
 servlet & jsp : 20
 java 8 + dp =<5
+slide numbers : 33,39,31,37,49,60,61,68,75,76,77,213,cursors(implicit and explicit),Exception,252,255,exception numbers,266(raise application error),
+268,280,between,group_by,sum(),triggers,constraint clause,
+https://github.com/craftedcoded02/jfs-live-git/blob/master/plsql/reference/C_Oracle%20Database%2010g%20PLSQL%20Fundamentals%20Student%20Guide%20Volume%201.pdf
+https://github.com/craftedcoded02/jfs-live-git/blob/master/plsql/reference/C_Oracle%20Database%2010g%20Develop%20PLSQL%20Program%20Units%20Student%20Guide%20Volume%202%20Black%20and%20White.pdf
+sql developer is the host environment where bind variable are present
+pl/sql variable are inside declare
+where 1=2 will give no data , since it is false
+we cannot give dbms inside trigger block , use raise application error.
+slide :39,
