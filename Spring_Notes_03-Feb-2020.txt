@@ -43,3 +43,42 @@ Expression Language
 ->Container itself injects one bean into another bean means it is DI
 ->beans are singleton
 ->if we wanted many bean then we have to use prototype
+
+04-feb-2020
+===========
+Layered architecture
+======================
+types are monolithic and layered.
+EE are layered by nature
+->repository : has connection to db
+->service layer : takes care for transaction management, provides business logic
+->MVC : has the UI for client (view) , controller helps to navigate between view , contains data for the view (model)
+->view - JSP , model - POJO , controller - servlet
+
+spring rest comes under repository, service layer 
+
+IOC manages life cycle of beans 
+IOC takes care of DI
+XML, Java annotation and java code are the 3 configuration
+inside <bean> we can use import
+we can have multiple xml file
+type = java.lang.String
+either we can give index or give the name in bean 
+
+Types of DI:
+============
+constructor based 
+setter based
+field based
+
+Autowiring : wired automatically by the spring 
+
+why we are opting for maven is :
+beause traditional method has the following disadvantages
+-> manually adding jars
+->classpath problem (configuring)
+->versioning of jar files
+
+advantages of Maven:
+automaticlly download jar files , dependencies , ensures compatible jars are downloaded,
+takes care of getting the required libraries
