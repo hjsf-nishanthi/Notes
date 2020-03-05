@@ -9,3 +9,4 @@ if we are not giving objects in POJO than it will throw error if generator class
 -> transient key word when  use in bean private transient String productName means this productName won't be getting into database
 ->in hibernate connections are called sessionFactory(creats many persistent objects and saves it to the database)
 ->insert operation is save method
+->persistent , jpa (keywords) [did u create hibernate query using jpa or hibernate specific] , JPA means it is not specific to hibernate.
