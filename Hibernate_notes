@@ -1,0 +1,11 @@
+->sessionfactory is heavy , so we are making it singleton
+->Hibernate uses "dialect" configuration to know which database you are using,
+so that it can switch to the database specific SQL generator code wherever necessary.
+->conversion of same language from one culture to other culture is called dialect.
+->java object become as rows inside database this is called persistent objects.
+->keys(objects are created in entity bean) are created in front end that's why we are giving <generator class="assigned" />
+if we are not giving objects in POJO than it will throw error if generator class is set to "assigned"
+->string(java) -> java.lang.String(hibernate)(works as a translator) -> varchar(database)
+-> transient key word when  use in bean private transient String productName means this productName won't be getting into database
+->in hibernate connections are called sessionFactory(creats many persistent objects and saves it to the database)
+->insert operation is save method
