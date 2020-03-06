@@ -1,0 +1,9 @@
+ORM COMES UNDER DAO
+LAYERED ARCHITECTURE
+Front end layer : spring mvc or angular or spring boot OR structs or servlet and jsp or react
+front end framework : angular 
+front end library : react
+Service layer : spring rest
+Repository Layer : Hibernate
+DB layer : oracle db, mysql
+Maven is a dependency management tool
