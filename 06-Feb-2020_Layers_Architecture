@@ -11,3 +11,22 @@ client side which runs on browser is angular
 servlet and jsp , spring mvc are server side 
 so UI is a wrap of both client side and server side
 spring mvc cannnot run on browser but angular can.
+pacakages : controller,dao,entity,service
+entity is used inside dao
+savecustomer is used to save or update
+@Autowired : it goes to spring container and finds the implementation for sessionfactory , this is field-based injection
+HQL - hibernate query language
+in hql tables are entity
+creating query which is persistent through ORM
+@Transactional for transaction which is carried on service layer
+In dao we ar doing both save or update
+@repository tells that this acts as a bean
+dependency injection in customerserviceimpl by customerdaoimpl
+dao -> service -> entity -> 
+@Entity
+@Table(name="....")
+javax.persistent.GenerationType - JPA
+oracle doesn't support id column but mysql supports
+sequence create sequence of numbers but will not create the number which is already given by other.
+GeneratorType ..........
+to make hibernate not to fail in instantiating than give the default constructor
