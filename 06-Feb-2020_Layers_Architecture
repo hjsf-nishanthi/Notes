@@ -30,3 +30,7 @@ oracle doesn't support id column but mysql supports
 sequence create sequence of numbers but will not create the number which is already given by other.
 GeneratorType ..........
 to make hibernate not to fail in instantiating than give the default constructor
+front controller-servlet , POJO based model.
+applicationContext is created using contextcofiguration in web.xml
+Dispatcher servlet is the front controller
+doget -> @getmapping , dopost -> @postmapping
