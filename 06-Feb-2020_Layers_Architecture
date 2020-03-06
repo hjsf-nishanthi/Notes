@@ -34,3 +34,5 @@ front controller-servlet , POJO based model.
 applicationContext is created using contextcofiguration in web.xml
 Dispatcher servlet is the front controller
 doget -> @getmapping , dopost -> @postmapping
+controller -> view [Model]
+view read by the (->) controller [ModelAttribute]
