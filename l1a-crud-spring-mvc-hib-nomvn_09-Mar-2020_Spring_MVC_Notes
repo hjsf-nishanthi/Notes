@@ -1,0 +1,23 @@
+
+oracle developer tools for vs code(oracle database plugin for vs code)
+this plugin unstand only plsql extension not sql extension
+JSTL = java server tag library
+JPA = When alal the imports are in persistence (useful when changing the code to another provider)
+if it is hibernate than it is specific to hibernate
+hibernate is a specificaiton
+entity is a bean which is persistent in a orm 
+we are implementing orm using hibernate
+TABLE DATA:
+@Id = PRIMARY KEY
+@Column(name="")
+sequence name is from table sequenceName="customer_id_seq"
+@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="customer_id_seq_gen") 
+we have to use sequence generator to generate the values 
+name of sequencegenerator and generator of generatedvalue are same
+lastname is the field
+Customer is model
+Transactional occurs in service layer 
+it happens in repo as well but main process occurs in service layer
+example : service layer take the amazon pay from repo and take the remaining from credit card , if both succeed means we will get the transaction success or else it fails 
+web-inf -> lib in dynamic web project 
+normal java project means it is inside src
