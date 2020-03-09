@@ -21,3 +21,14 @@ it happens in repo as well but main process occurs in service layer
 example : service layer take the amazon pay from repo and take the remaining from credit card , if both succeed means we will get the transaction success or else it fails 
 web-inf -> lib in dynamic web project 
 normal java project means it is inside src
+dispatcherservlet extends frameworkservlet
+httpservlet request => servletwebrequest
+ApplicationContext = > webapplicationcontext
+spring is unobtrusive 
+absolute-ordering = first it takes web.xml 
+@ is only understood by webapplicationcontext and not by applicationcontext
+web - inf goes into tomcat becoz spring-servlet.xml doesn't come in url , so we are giving it in tomcat
+session timeout is in minutes 
+localsessionfactorybean takes care of hibernate util
+prefix and sufix is matched by internalresourceviewresolver
+(prefix)web-inf/view/+(sentbycontroller).jsp(suffix)
