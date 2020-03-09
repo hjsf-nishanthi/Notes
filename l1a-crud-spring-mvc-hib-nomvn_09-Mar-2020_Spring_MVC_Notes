@@ -32,3 +32,4 @@ session timeout is in minutes
 localsessionfactorybean takes care of hibernate util
 prefix and sufix is matched by internalresourceviewresolver
 (prefix)web-inf/view/+(sentbycontroller).jsp(suffix)
+child controller return view as a string and model info where dispatcherservlet connect internalresourceresolver and attach prefix and suffix
